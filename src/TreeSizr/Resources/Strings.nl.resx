@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Drive" xml:space="preserve"><value>Schijf:</value></data>
+  <data name="Folder" xml:space="preserve"><value>Map:</value></data>
+  <data name="Browse" xml:space="preserve"><value>Bladeren…</value></data>
+  <data name="Scan" xml:space="preserve"><value>Scannen</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Annuleren</value></data>
+  <data name="Settings" xml:space="preserve"><value>Instellingen</value></data>
+  <data name="FastScanAdmin" xml:space="preserve"><value>🛡 Snelle scan (admin)</value></data>
+  <data name="FastScanAdminTip" xml:space="preserve"><value>Herstart als administrator, zodat hele NTFS-schijven via de MFT in enkele seconden gescand worden.</value></data>
+  <data name="Administrator" xml:space="preserve"><value>administrator</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Kies een schijf of map en klik op Scannen.</value></data>
+  <data name="BrowseTitle" xml:space="preserve"><value>Kies een map om te scannen</value></data>
+  <data name="FolderNotFound" xml:space="preserve"><value>De map &quot;{0}&quot; bestaat niet.</value></data>
+  <data name="Progress" xml:space="preserve"><value>{0:N0} s — {1:N0} mappen, {2:N0} bestanden, {3} — {4}</value></data>
+  <data name="Done" xml:space="preserve"><value>Klaar ({0}): {1}, {2} op schijf, {3:N0} bestanden in {4:N1} s</value></data>
+  <data name="SkippedFolders" xml:space="preserve"><value> — {0:N0} mappen zonder toegang overgeslagen</value></data>
+  <data name="FastScanNotUsed" xml:space="preserve"><value> — snelle scan niet gebruikt: {0}</value></data>
+  <data name="MethodNormal" xml:space="preserve"><value>normale scan</value></data>
+  <data name="MethodMft" xml:space="preserve"><value>MFT</value></data>
+  <data name="Cancelling" xml:space="preserve"><value>Annuleren…</value></data>
+  <data name="Cancelled" xml:space="preserve"><value>Scan geannuleerd.</value></data>
+  <data name="Failed" xml:space="preserve"><value>Scan mislukt.</value></data>
+  <data name="TabFolders" xml:space="preserve"><value>Mappen</value></data>
+  <data name="TabLargestFiles" xml:space="preserve"><value>Grootste bestanden</value></data>
+  <data name="TabTreemap" xml:space="preserve"><value>Treemap</value></data>
+  <data name="ColFolder" xml:space="preserve"><value>Map</value></data>
+  <data name="ColFile" xml:space="preserve"><value>Bestand</value></data>
+  <data name="ColSize" xml:space="preserve"><value>Grootte</value></data>
+  <data name="ColAllocated" xml:space="preserve"><value>Op schijf</value></data>
+  <data name="ColAllocatedTip" xml:space="preserve"><value>Ruimte die echt op de schijf gebruikt wordt (minder bij OneDrive-, sparse- en gecomprimeerde bestanden)</value></data>
+  <data name="ColPercent" xml:space="preserve"><value>% bovenl.</value></data>
+  <data name="ColShare" xml:space="preserve"><value>Aandeel</value></data>
+  <data name="ColFiles" xml:space="preserve"><value>Bestanden</value></data>
+  <data name="OpenInExplorer" xml:space="preserve"><value>Openen in Verkenner</value></data>
+  <data name="ShowInExplorer" xml:space="preserve"><value>Tonen in Verkenner</value></data>
+  <data name="CopyPath" xml:space="preserve"><value>Pad kopiëren</value></data>
+  <data name="NoAccessTip" xml:space="preserve"><value>{0}
+Geen toegang – inhoud niet meegeteld</value></data>
+  <data name="Up" xml:space="preserve"><value>↑ Omhoog</value></data>
+  <data name="TreemapHint" xml:space="preserve"><value>Klik op een blok om in te zoomen; rechtsklik voor opties.</value></data>
+  <data name="FilesBlock" xml:space="preserve"><value>(bestanden)</value></data>
+  <data name="FilesGroup" xml:space="preserve"><value>bestanden</value></data>
+  <data name="HoverFolder" xml:space="preserve"><value>{0} — {1}, {2:N0} bestanden</value></data>
+  <data name="HoverLooseFiles" xml:space="preserve"><value>Losse bestanden in {0} — {1}, {2:N0} bestanden</value></data>
+  <data name="SetLanguage" xml:space="preserve"><value>Taal</value></data>
+  <data name="SetTheme" xml:space="preserve"><value>Thema</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Windows-standaard</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Licht</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Donker</value></data>
+  <data name="SetMetric" xml:space="preserve"><value>Sorteren en balken op</value></data>
+  <data name="SetMetricTip" xml:space="preserve"><value>Sorteer de boom, percentages, balken, treemap en grootste bestanden op de ruimte op schijf of op de bestandsgrootte.</value></data>
+  <data name="MetricOnDisk" xml:space="preserve"><value>Op schijf</value></data>
+  <data name="MetricSize" xml:space="preserve"><value>Grootte</value></data>
+  <data name="SetNameBar" xml:space="preserve"><value>Groottebalk achter mapnamen</value></data>
+  <data name="BarOff" xml:space="preserve"><value>Uit</value></data>
+  <data name="BarGradient" xml:space="preserve"><value>Verloop</value></data>
+  <data name="BarSolid" xml:space="preserve"><value>Effen</value></data>
+  <data name="SetShowAllocated" xml:space="preserve"><value>Kolom &apos;Op schijf&apos; tonen</value></data>
+  <data name="SetSizeInName" xml:space="preserve"><value>Grootte vóór de namen tonen</value></data>
+  <data name="SetShowShare" xml:space="preserve"><value>Kolom &apos;Aandeel&apos; (balkje) tonen</value></data>
+  <data name="SetUseMft" xml:space="preserve"><value>Snelle MFT-scan gebruiken als administrator</value></data>
+  <data name="SetTopFiles" xml:space="preserve"><value>Aantal grootste bestanden</value></data>
+  <data name="SetNextScan" xml:space="preserve"><value>(geldt vanaf de volgende scan)</value></data>
+  <data name="SetAutoSave" xml:space="preserve"><value>Wijzigingen worden direct toegepast en bewaard.</value></data>
+  <data name="Close" xml:space="preserve"><value>Sluiten</value></data>
+  <data name="MftDisabled" xml:space="preserve"><value>uitgeschakeld in de instellingen</value></data>
+  <data name="MftNotLocal" xml:space="preserve"><value>geen lokaal station</value></data>
+  <data name="MftNotNtfs" xml:space="preserve"><value>geen lokale NTFS-schijf</value></data>
+  <data name="MftNoAdmin" xml:space="preserve"><value>geen administratorrechten</value></data>
+  <data name="MftFailed" xml:space="preserve"><value>MFT-scan mislukt: {0}</value></data>
+  <data name="MftReading" xml:space="preserve"><value>MFT lezen…</value></data>
+  <data name="MftBuilding" xml:space="preserve"><value>Boom opbouwen…</value></data>
+</root>

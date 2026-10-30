@@ -1,0 +1,42 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Light theme colors. Dark.xaml defines the same keys; ThemeManager swaps them at runtime. -->
+    <SolidColorBrush x:Key="Bg.Window" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="Bg.Panel" Color="#F3F3F3" />
+    <SolidColorBrush x:Key="Bg.Input" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="Bg.Control" Color="#FBFBFB" />
+    <SolidColorBrush x:Key="Bg.ControlHover" Color="#EEF3F9" />
+    <SolidColorBrush x:Key="Bg.ControlPressed" Color="#DCE7F3" />
+    <SolidColorBrush x:Key="Bg.Popup" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="Bg.Hover" Color="#EEF4FB" />
+    <SolidColorBrush x:Key="Bg.Selection" Color="#CCE4F7" />
+    <SolidColorBrush x:Key="Bg.SelectionInactive" Color="#E3EBF3" />
+    <SolidColorBrush x:Key="Bg.TabSelected" Color="#FFFFFF" />
+
+    <SolidColorBrush x:Key="Border.Control" Color="#C8C8C8" />
+    <SolidColorBrush x:Key="Border.Subtle" Color="#DDDDDD" />
+    <SolidColorBrush x:Key="Accent" Color="#0067C0" />
+    <SolidColorBrush x:Key="Fg.OnAccent" Color="#FFFFFF" />
+
+    <SolidColorBrush x:Key="Fg.Text" Color="#1B1B1B" />
+    <SolidColorBrush x:Key="Fg.Muted" Color="#666666" />
+    <SolidColorBrush x:Key="Fg.Header" Color="#444444" />
+    <SolidColorBrush x:Key="Fg.Disabled" Color="#A0A0A0" />
+    <SolidColorBrush x:Key="Fg.Error" Color="#B03030" />
+
+    <LinearGradientBrush x:Key="NameBar.Gradient" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#E6EFF9" Offset="0" />
+        <GradientStop Color="#A7C6E6" Offset="1" />
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="NameBar.Solid" Color="#CFE0F2" />
+
+    <SolidColorBrush x:Key="Share.Track" Color="#F4F6F8" />
+    <SolidColorBrush x:Key="Share.Border" Color="#9AA9BA" />
+    <SolidColorBrush x:Key="Share.Fill" Color="#4E79A7" />
+
+    <SolidColorBrush x:Key="ScrollBar.Thumb" Color="#C2C2C2" />
+    <SolidColorBrush x:Key="ScrollBar.ThumbHover" Color="#9E9E9E" />
+
+    <!-- Used by built-in templates, such as the corner between two scroll bars. -->
+    <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Color="#FFFFFF" />
+</ResourceDictionary>

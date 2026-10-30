@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyTitle>TreeSizr</AssemblyTitle>
+    <Product>TreeSizr</Product>
+    <Description>Fast disk space analyzer for Windows</Description>
+    <Version>0.1.0</Version>
+    <Copyright>Copyright (c) 2026 Drawer</Copyright>
+    <ApplicationIcon>Assets\TreeSizr.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- The WPF SDK leaves System.IO out of the implicit usings. -->
+    <Using Include="System.IO" />
+    <InternalsVisibleTo Include="TreeSizr.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\TreeSizr.ico" />
+  </ItemGroup>
+
+</Project>

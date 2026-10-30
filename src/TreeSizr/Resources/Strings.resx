@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Drive" xml:space="preserve"><value>Drive:</value></data>
+  <data name="Folder" xml:space="preserve"><value>Folder:</value></data>
+  <data name="Browse" xml:space="preserve"><value>Browse…</value></data>
+  <data name="Scan" xml:space="preserve"><value>Scan</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="FastScanAdmin" xml:space="preserve"><value>🛡 Fast scan (admin)</value></data>
+  <data name="FastScanAdminTip" xml:space="preserve"><value>Restart as administrator so whole NTFS drives are scanned through the MFT in seconds.</value></data>
+  <data name="Administrator" xml:space="preserve"><value>administrator</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Choose a drive or folder and click Scan.</value></data>
+  <data name="BrowseTitle" xml:space="preserve"><value>Choose a folder to scan</value></data>
+  <data name="FolderNotFound" xml:space="preserve"><value>The folder &quot;{0}&quot; does not exist.</value></data>
+  <data name="Progress" xml:space="preserve"><value>{0:N0} s — {1:N0} folders, {2:N0} files, {3} — {4}</value></data>
+  <data name="Done" xml:space="preserve"><value>Done ({0}): {1}, {2} on disk, {3:N0} files in {4:N1} s</value></data>
+  <data name="SkippedFolders" xml:space="preserve"><value> — {0:N0} folders without access skipped</value></data>
+  <data name="FastScanNotUsed" xml:space="preserve"><value> — fast scan not used: {0}</value></data>
+  <data name="MethodNormal" xml:space="preserve"><value>normal scan</value></data>
+  <data name="MethodMft" xml:space="preserve"><value>MFT</value></data>
+  <data name="Cancelling" xml:space="preserve"><value>Cancelling…</value></data>
+  <data name="Cancelled" xml:space="preserve"><value>Scan cancelled.</value></data>
+  <data name="Failed" xml:space="preserve"><value>Scan failed.</value></data>
+  <data name="TabFolders" xml:space="preserve"><value>Folders</value></data>
+  <data name="TabLargestFiles" xml:space="preserve"><value>Largest files</value></data>
+  <data name="TabTreemap" xml:space="preserve"><value>Treemap</value></data>
+  <data name="ColFolder" xml:space="preserve"><value>Folder</value></data>
+  <data name="ColFile" xml:space="preserve"><value>File</value></data>
+  <data name="ColSize" xml:space="preserve"><value>Size</value></data>
+  <data name="ColAllocated" xml:space="preserve"><value>On disk</value></data>
+  <data name="ColAllocatedTip" xml:space="preserve"><value>Space actually used on disk (less for OneDrive, sparse and compressed files)</value></data>
+  <data name="ColPercent" xml:space="preserve"><value>% of parent</value></data>
+  <data name="ColShare" xml:space="preserve"><value>Share</value></data>
+  <data name="ColFiles" xml:space="preserve"><value>Files</value></data>
+  <data name="OpenInExplorer" xml:space="preserve"><value>Open in Explorer</value></data>
+  <data name="ShowInExplorer" xml:space="preserve"><value>Show in Explorer</value></data>
+  <data name="CopyPath" xml:space="preserve"><value>Copy path</value></data>
+  <data name="NoAccessTip" xml:space="preserve"><value>{0}
+No access – contents not counted</value></data>
+  <data name="Up" xml:space="preserve"><value>↑ Up</value></data>
+  <data name="TreemapHint" xml:space="preserve"><value>Click a block to zoom in; right-click for options.</value></data>
+  <data name="FilesBlock" xml:space="preserve"><value>(files)</value></data>
+  <data name="FilesGroup" xml:space="preserve"><value>Files</value></data>
+  <data name="HoverFolder" xml:space="preserve"><value>{0} — {1}, {2:N0} files</value></data>
+  <data name="HoverLooseFiles" xml:space="preserve"><value>Loose files in {0} — {1}, {2:N0} files</value></data>
+  <data name="SetLanguage" xml:space="preserve"><value>Language</value></data>
+  <data name="SetTheme" xml:space="preserve"><value>Theme</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Windows default</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Light</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Dark</value></data>
+  <data name="SetMetric" xml:space="preserve"><value>Sort and size bars by</value></data>
+  <data name="SetMetricTip" xml:space="preserve"><value>Order the tree, percentages, bars, treemap and largest files by the space used on disk or by the file size.</value></data>
+  <data name="MetricOnDisk" xml:space="preserve"><value>On disk</value></data>
+  <data name="MetricSize" xml:space="preserve"><value>Size</value></data>
+  <data name="SetNameBar" xml:space="preserve"><value>Size bar behind folder names</value></data>
+  <data name="BarOff" xml:space="preserve"><value>Off</value></data>
+  <data name="BarGradient" xml:space="preserve"><value>Gradient</value></data>
+  <data name="BarSolid" xml:space="preserve"><value>Solid</value></data>
+  <data name="SetShowAllocated" xml:space="preserve"><value>Show the &apos;On disk&apos; column</value></data>
+  <data name="SetSizeInName" xml:space="preserve"><value>Show the size in front of names</value></data>
+  <data name="SetShowShare" xml:space="preserve"><value>Show the &apos;Share&apos; bar column</value></data>
+  <data name="SetUseMft" xml:space="preserve"><value>Use the fast MFT scan when running as administrator</value></data>
+  <data name="SetTopFiles" xml:space="preserve"><value>Number of largest files</value></data>
+  <data name="SetNextScan" xml:space="preserve"><value>(applies to the next scan)</value></data>
+  <data name="SetAutoSave" xml:space="preserve"><value>Changes are applied and saved immediately.</value></data>
+  <data name="Close" xml:space="preserve"><value>Close</value></data>
+  <data name="MftDisabled" xml:space="preserve"><value>disabled in settings</value></data>
+  <data name="MftNotLocal" xml:space="preserve"><value>not a local drive</value></data>
+  <data name="MftNotNtfs" xml:space="preserve"><value>not a local NTFS drive</value></data>
+  <data name="MftNoAdmin" xml:space="preserve"><value>no administrator rights</value></data>
+  <data name="MftFailed" xml:space="preserve"><value>MFT scan failed: {0}</value></data>
+  <data name="MftReading" xml:space="preserve"><value>Reading MFT…</value></data>
+  <data name="MftBuilding" xml:space="preserve"><value>Building tree…</value></data>
+</root>

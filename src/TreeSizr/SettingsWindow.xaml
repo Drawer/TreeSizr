@@ -1,0 +1,82 @@
+<Window x:Class="TreeSizr.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TreeSizr"
+        xmlns:scan="clr-namespace:TreeSizr.Scanning"
+        Title="{local:Tr Settings}" SizeToContent="WidthAndHeight" ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False" FontFamily="Segoe UI" FontSize="12.5"
+        Background="{DynamicResource Bg.Window}" Foreground="{DynamicResource Fg.Text}"
+        DataContext="{x:Static local:AppSettings.Current}">
+
+    <Window.Resources>
+        <Style TargetType="CheckBox" BasedOn="{StaticResource {x:Type CheckBox}}">
+            <Setter Property="Margin" Value="0,6" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="ComboBox" BasedOn="{StaticResource {x:Type ComboBox}}">
+            <Setter Property="MinWidth" Value="150" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+        </Style>
+    </Window.Resources>
+
+    <StackPanel Margin="18,14" MinWidth="380">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="{local:Tr SetLanguage}" VerticalAlignment="Center" Margin="0,4,16,4" />
+            <ComboBox Grid.Column="1" Margin="0,4"
+                      ItemsSource="{x:Static local:Loc.Languages}" DisplayMemberPath="Name" SelectedValuePath="Code"
+                      SelectedValue="{Binding Language}" />
+
+            <TextBlock Grid.Row="1" Text="{local:Tr SetTheme}" VerticalAlignment="Center" Margin="0,4,16,4" />
+            <ComboBox Grid.Row="1" Grid.Column="1" Margin="0,4" SelectedValuePath="Tag" SelectedValue="{Binding Theme}">
+                <ComboBoxItem Content="{local:Tr ThemeSystem}" Tag="{x:Static local:AppTheme.System}" />
+                <ComboBoxItem Content="{local:Tr ThemeLight}" Tag="{x:Static local:AppTheme.Light}" />
+                <ComboBoxItem Content="{local:Tr ThemeDark}" Tag="{x:Static local:AppTheme.Dark}" />
+            </ComboBox>
+
+            <TextBlock Grid.Row="2" Text="{local:Tr SetMetric}" VerticalAlignment="Center" Margin="0,4,16,4" />
+            <ComboBox Grid.Row="2" Grid.Column="1" Margin="0,4" SelectedValuePath="Tag" SelectedValue="{Binding SizeMetric}"
+                      ToolTip="{local:Tr SetMetricTip}">
+                <ComboBoxItem Content="{local:Tr MetricOnDisk}" Tag="{x:Static scan:SizeMetric.OnDisk}" />
+                <ComboBoxItem Content="{local:Tr MetricSize}" Tag="{x:Static scan:SizeMetric.Size}" />
+            </ComboBox>
+
+            <TextBlock Grid.Row="3" Text="{local:Tr SetNameBar}" VerticalAlignment="Center" Margin="0,4,16,4" />
+            <ComboBox Grid.Row="3" Grid.Column="1" Margin="0,4" SelectedValuePath="Tag" SelectedValue="{Binding NameBar}">
+                <ComboBoxItem Content="{local:Tr BarGradient}" Tag="{x:Static local:NameBarStyle.Gradient}" />
+                <ComboBoxItem Content="{local:Tr BarSolid}" Tag="{x:Static local:NameBarStyle.Solid}" />
+                <ComboBoxItem Content="{local:Tr BarOff}" Tag="{x:Static local:NameBarStyle.Off}" />
+            </ComboBox>
+
+            <TextBlock Grid.Row="4" Text="{local:Tr SetTopFiles}" VerticalAlignment="Center" Margin="0,4,16,4" />
+            <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" Margin="0,4">
+                <ComboBox x:Name="TopFilesBox" MinWidth="80" SelectedItem="{Binding TopFileCount}" />
+                <TextBlock Text="{local:Tr SetNextScan}" Foreground="{DynamicResource Fg.Muted}" VerticalAlignment="Center" Margin="8,0,0,0" />
+            </StackPanel>
+        </Grid>
+
+        <Separator Margin="0,10" />
+
+        <CheckBox Content="{local:Tr SetSizeInName}" IsChecked="{Binding ShowSizeInName}" />
+        <CheckBox Content="{local:Tr SetShowAllocated}" IsChecked="{Binding ShowAllocatedColumn}" />
+        <CheckBox Content="{local:Tr SetShowShare}" IsChecked="{Binding ShowShareColumn}" />
+        <CheckBox Content="{local:Tr SetUseMft}" IsChecked="{Binding UseMftScan}" />
+
+        <DockPanel Margin="0,16,0,0">
+            <Button DockPanel.Dock="Right" Content="{local:Tr Close}" MinWidth="80" Padding="12,3" IsCancel="True" IsDefault="True"
+                    Click="Close_Click" />
+            <TextBlock Text="{local:Tr SetAutoSave}" Foreground="{DynamicResource Fg.Muted}" VerticalAlignment="Center" />
+        </DockPanel>
+    </StackPanel>
+</Window>
